@@ -24,7 +24,7 @@ default = ["extension-module"]
 
 [lib]
 name = "pyqir_generator"
-crate-type = ["cdylib"]
+crate-type = ["cdylib", "rlib"]
 
 [package.metadata.maturin]
 classifier=[
